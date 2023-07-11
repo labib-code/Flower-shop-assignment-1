@@ -10,6 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* banner section style starts from here */
 .banner-container {
     background-color: rgba(229, 84, 115, 0.1);
     display: flex;
@@ -56,9 +57,11 @@ body {
     width: 550px;
     height: 703px;
     
-    
-
 }
+
+/* banner section end */
+
+/* featured flower section style starts here */
 
 .featured-flower-title {
     color: #272727;
@@ -83,6 +86,8 @@ body {
     font-weight: 400;
     margin-bottom: 35px;
 }
+
+/* featured flower radius box style start here */
 
 .all-radius-box {
     display: flex;
@@ -162,7 +167,9 @@ body {
     margin-bottom: 70px;
 
 }
+/* featured flower full section style end here */
 
+/* hot deal sale up section style starts here*/
 
 .hot-deal-section {
     background-color: #E554730D;
@@ -204,6 +211,9 @@ body {
     color: rgba(229, 84, 115, 1);
 }
 
+/* hot deal sale up section style ends here */
+
+/* instagram section style starts from here */
 
 .instagram-text {
     text-align: center;
@@ -228,6 +238,7 @@ body {
 
 }
 
+/* get the latest deal box style starts here */
 
 .latest-deal-section {
     
@@ -305,6 +316,10 @@ body {
     margin-left: 10px;
 }
 
+/* get the latest deal box style end here */
+
+/* footer section style starts from here */
+
 .footer-section {
     background-color: black;
     height: 380px;
@@ -352,3 +367,5 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+/* footer section style end here */
