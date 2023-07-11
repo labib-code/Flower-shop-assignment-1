@@ -56,6 +56,7 @@ body {
     width: 550px;
     height: 703px;
     
+    
 
 }
 
@@ -208,16 +209,7 @@ body {
     text-align: center;
 }
 
-.test-insta{
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: center;
-    text-align: center; */
-    width: 100%;
-    margin: 0 auto;
-    gap: 20px;
 
-}
 
 .four-instagram-box {
     display: flex;
@@ -226,8 +218,6 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin: 0 auto;
     background-size: 80% auto;
 }
 
@@ -297,6 +287,7 @@ body {
     border-style: none;
     color: rgba(255, 255, 255, 1);
     padding-left: 20px;
+    
 
 
 }
