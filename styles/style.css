@@ -5,7 +5,6 @@
 }
 
 
-
 body {
 
     font-family: 'Lato', sans-serif;
@@ -53,13 +52,13 @@ body {
     cursor: pointer;
 }
 
-.banner-flower{
+.banner-flower {
     width: 550px;
     height: 703px;
+    
 
-    
-    
 }
+
 .featured-flower-title {
     color: #272727;
     text-align: center;
@@ -204,10 +203,21 @@ body {
     color: rgba(229, 84, 115, 1);
 }
 
+
 .instagram-text {
     text-align: center;
 }
 
+.test-insta{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+    text-align: center; */
+    width: 100%;
+    margin: 0 auto;
+    gap: 20px;
+
+}
 
 .four-instagram-box {
     display: flex;
@@ -216,8 +226,8 @@ body {
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* width: 80%;
-    margin: 0 auto; */
+    width: 80%;
+    margin: 0 auto;
     background-size: 80% auto;
 }
 
@@ -230,22 +240,26 @@ body {
 
 
 .latest-deal-section {
-    border-radius: 8px;
+    
     background-image: url("../flower-asset/rectangle9.png");
     padding: 30px;
     text-align: center;
-    /* width: 100%;
-    margin: 0 auto; */
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-size: 72% auto;
     margin-top: 70px;
     margin-bottom: 80px;
+    background-size: contain;
 
 
+}
+
+.latest-deal-container{
+    border-radius: 8px;
+    padding: 18px;
+    position: relative;
 }
 
 .deal-text {
