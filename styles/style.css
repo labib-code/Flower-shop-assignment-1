@@ -231,6 +231,13 @@ body {
     color: rgba(17, 17, 17, 0.6);
     font-family: Lato;
     font-size: 13px;
+    padding: 5px;
+    background-color: rgba(22, 22, 22, 0.05);
+    text-decoration: none;
+    border-style: none;
+    width: 150px;
+    border-radius: 4px;
+    
     
 }
 
