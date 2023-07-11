@@ -163,7 +163,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 280px;
+    gap: 260px;
     margin-bottom: 70px;
 
 }
@@ -172,7 +172,13 @@ body {
 /* bonus section style starts from here */
 
 .main-blog-container{
-    height: 90vh;
+    height: 90vh;   
+}
+
+.three-blog-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
 .title-blog{
@@ -182,8 +188,18 @@ body {
     font-size: 35px;
     font-weight: 800;
     margin-top: 130px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    align-items: center;
 }    
+
+.blog-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    text-align: center;
+}
     
 .Nursery-text{
     color: #272727;
@@ -192,6 +208,7 @@ body {
     font-family: Lato;
     font-size: 15px;
     font-weight: 800;
+    text-align:center;
 }
 
 .june-text{
@@ -220,6 +237,7 @@ body {
 .blog1{
     width: 500px;
     height: 50px;
+    
     
 }
 
