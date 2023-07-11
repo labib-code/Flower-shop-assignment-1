@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,12 +6,12 @@
 
 
 
-body{
-    
+body {
+
     font-family: 'Lato', sans-serif;
 }
 
-.banner-container{
+.banner-container {
     background-color: rgba(229, 84, 115, 0.1);
     /* height: 100vh; */
     display: flex;
@@ -20,3 +20,100 @@ body{
     padding: 0px 50px;
 }
 
+
+.featured-text {
+    text-align: center;
+    background-color: #FFF;
+}
+
+.all-radius-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    gap: 20px;
+}
+
+
+
+.radius-box {
+    background-color: #A7216226;
+    border-radius: 400px 400px 0px 0px;
+    width: 370px;
+    height: 420px;
+    display: flex;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+
+
+
+}
+
+
+.radius-box1 {
+    background-color: #0597A026;
+    border-radius: 400px 400px 0px 0px;
+    width: 370px;
+    height: 420px;
+    display: flex;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.radius-box2 {
+    background-color: #477D1126;
+    border-radius: 400px 400px 0px 0px;
+    width: 370px;
+    height: 420px;
+    display: flex;
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+
+.radious-flower {
+    width: 250px;
+    height: 320px;
+
+}
+
+.radious-flower1{
+    width: 250px;
+    height: 320px;
+    padding-bottom: 40px;
+}
+
+.all-radius-text {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 70px;
+    text-decoration-line: underline;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 250px;
+    
+}
+
+
+.hot-deal-section{
+    background-color: #E554730D;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60vh;
+    gap: 130px;
+}
+
+.hot-section-img{
+    width: 220px;
+    height: 320px;
+}
